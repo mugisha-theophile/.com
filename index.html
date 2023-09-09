@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mugisha theophile</title>
+
+  <!--Link File CSS-->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section id="header">
+        <div class="header container">
+          <div class="nav-bar">
+              <div class="brand">
+                <a href="#hero"><h1><span>mug</span>isha</h1></a>
+              </div>
+              <div class="nav-list">
+                  <div class="hamburger"><div class="bar"></div></div>
+                    <ul>
+                      <li><a href="#hero" data-after="Home">Home</a></li>
+                      <li><a href="#about" data-after="about">about me</a></li>
+                      <li><a href="#services" data-after="Services">Services</a></li>
+                      <li><a href="#projects" data-after="skills">skills</a></li>
+                      <li><a href="#contact" data-after="Contact">Contact</a></li>
+                    </ul>
+                  </div>  
+                </div>
+              </div>
+          </div>    
+        </div>
+    </section>
+    
+
+    <section id="hero">
+        <div class="hero-content">
+          <h1>This is<span></span></h1>
+          <h1>Mugisha Theophile<span></span></h1>
+          <h1>Hello every one!<span></span></h1>
+          <p>You're highly welcome to my innovative platform.</p>
+          <div class="btn"><a href="#contact" class="#">Hire me</a></div>
+        </div>
+        <div class="bubbles">
+          <img src="bubble.jpeg">
+          <img src="star.png">
+          <img src="bubble.jpeg">
+          <img src="star.png">
+          <img src="bubble.jpeg">
+          <img src="star.png">
+          <img src="bubble.jpeg">
+        </div>
+    </section>
+
+  <section id="about">
+    <div class="about-content">
+      <!-- Profile Picture -->
+      <div class="profile-picture">
+        <!-- Replace 'profile.jpg' with your profile picture path -->
+        <img src="greenlogo.png" alt="Profile Picture">
+        <p>Co-Founder & CEO</p>
+      </div>
+
+      <!-- About Text -->
+      <div class="about-text">
+        <h2>About<span> me</span></h2>
+        <img src="cman.png" alt="">
+        <p>I am an IT firm providing Web designing<br>
+        Are you looking for an exprienced and professional <br>Websie for your business, or do you want to redesign your existing website with a stunning and responsive design?</p>
+        <p>Great,you're at the right place, I develop and design<br>professional website that promote your business and brand that make you stand out among your competitors</p>
+
+      </div>
+
+      <div class="container">
+        <div class="display">
+            <div class="display-item">
+                <div class="card seamus">
+                    <div class="card-top">
+                        <div class="card-profile">
+                            <div class="profile-image"></div>
+                        </div>
+                        <div class="card-info">
+                            <div class="info-title">
+                                <h2>Web developer</h2>
+                            </div>
+                            <div class="info-bio">
+                              Mugisha Theophile as a fronted web developer belives in building strong brands, good,clean design,well-crafted content, and integrated strategies.Am pride my self on customized web developement and designing of premier quality.
+                              <p>My main focus these days is building products and leading product for my clients at upstatement.In my free time I've also released an online video course that covers everyhing you need to know about building a webpage with advanced tech of designing and creating a site with figma.</p>
+                            </div>
+                        </div>
+                      </div>
+                </div>
+            </div>
+    </div>
+  </section>
+
+  <!--Projects Section-->
+  <section id="projects">
+    <h2><img src="servic.png" alt="">Exprience<img src="servic.png"></h2><img src="serrr.jpg" alt="">
+    <h4>2018-present</h4>
+    <h3>Lead Engineer. Upstatement</h3>
+    <h4>Senior Engineer<br>Engineer in</h4>
+    <p>....</p>
+    <button id="button1">React</button>
+    <button id="button2">React Native</button>
+    <button id="button3">SCSS</button>
+    <button id="button4">HTML$CSS</button>
+    <button id="button5">JavaScript</button>
+    <button id="button5">Figma</button>
+    <button id="button6">TypeScript</button>
+    <button id="button7">PHP</button>
+  </section>
+
+  <section id="services"> 
+    <div class="container">
+      <h2> Services</h2>
+      <div class="services-grid">
+        <div class="service">
+          <img src="digt.jpg" alt=""><h3>Digitor Animation</h3>
+          <p>Building of fast& responsive animated<br>,premium quality website<br>hosting website.</p>
+        </div>
+        <div class="service">
+          <img src="jjjs.png" alt=""><h3>HTML, CSS& SCSS</h3>
+          <p>Building and developing a fast& responsive<br>,premium quality website<br>hosting website.</p>
+        </div>
+        <div class="service">
+          <img src="fgm.png" alt=""><h3>Figma Designer</h3>
+          <p>Building and designing of fast& responsive<br>,premium quality website with figma advanced tech<br>hosting website.</p>
+        </div>
+        <div class="service">
+          <img src="webdes.jpg" alt=""><h3>Website Designer</h3>
+          <p>Building and designing of fast& responsive<br>,premium quality website<br>hosting website.</p>
+        </div>
+        <div class="service">
+          <img src="webre.jpg" alt=""><h3>Redesign website</h3>
+          <p>Redeesigning of existing website with a responsive<br>,premium quality functional<br>page</p>
+        </div>
+        <div class="service">
+          <img src="host.jpg" alt=""><h3>Hosting and domain</h3>
+          <p>Hosting a premium quality,secured website<br>with severl domain name such as .com,.org,.net among others</p>
+        </div>
+      </div>
+    </div>
+ </section>
+
+ <div class="album">
+      <h1 id="albumHeading">Recent projects</h1>
+      <button id="prevBtn" onclick="showPrevPhoto()">&lt;</button>
+      <div class="photo-container">
+        <h2 id="photoHeading"></h2>
+        <img id="currentPhoto" src="foto2.jpg" alt="Photo">
+        <p id="photoDescription"></p>
+      </div>
+      <button id="nextBtn" onclick="showNextPhoto()">&gt;</button>
+    </div>
+
+ <section id="contact">
+  <div class="container">
+    <h2>Contact <span>Me</span></h2>
+    <p>Ready to take the first step towards your IT journey? Fill out the form or get me thou contacts below and i'll get back to you shortly via your email and contact.</p>
+    <div class="contact-info">
+      <p>Email: mugishatheophile71@gmail.com</p> 
+      <p><img src="phone.png" alt="">tel: <a href="tel:+256706953043">+ (260) 770-046-318</a></p>
+      <p><img src="follw.jpg" alt="">whatsApp: <a href="tel:+256706953043">+ (256) 706-953-043</a></p>
+      <p><img src="instgram.png" alt="">instgram: <a href="instgram">Mugisha presiIdo</a></p>
+      <p><img src="twitter.png" alt="">twitter: <a href="twitter">Mugisha ethic</a></p>
+    </div>
+    <form action="#" method="POST">
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="email" name="email" placeholder="Your Email" required>
+      <textarea name="message" placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+    <p>or found me at</p>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d61553.55479322592!2d28.3306163!3d-15.3712227!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x194089732def6d77%3A0x17296a5d9f6007f2!2sGarden%20City%20Mall!5e0!3m2!1sen!2szm!4v1694255830713!5m2!1sen!2szm" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </div>
+</section>
+
+  <footer>
+     <!-- First footer row -->
+      <div class="footer-row">
+        <div class="social-icons">
+          <h2>Follow us</h2>
+          <a href="#" target="_blank"><img src="instgram.png" alt=""></a>
+          <a href="#" target="_blank"><img src="facebook.png" alt=""></a>
+          <a href="#" target="_blank"><img src="twitter.png" alt=""></a>
+          <a href="#" target="_blank"><img src="linkedin.png" alt=""></a>
+        </div>
+      </div>
+  
+      <div class="footer-links">
+        <h2><img src="hand.png" alt="">Useful Links</h2>
+        <ul>
+          <li><a href="#about">Terms of Service</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">FAQ</a></li>
+          <li><a href="#">Support</a></li>
+        </ul>
+      </div>
+      <div class="footer-links">
+        <h2><img src="serrr.jpg" alt="">Services</h2>
+        <ul>
+          <li><a href="#">Web Design</a></li>
+          <li><a href="#">Web Development</a></li>
+          <li><a href="#">SEO</a></li>
+          <li><a href="#">Social Media Marketing</a></li>
+        </ul>
+      </div>
+      <div class="footer-links">
+        <h2><img src="find.jpg" alt="">Find Us</h2>
+        <ul>
+          <li><i class="fas fa-map-marker-alt"></i>Lusaka Zambia,round about to<br>international airport,chongwe highway</li><br>
+          <li><i class="fas fa-phone-alt"></i> +(260)770-046-318</li><br>
+          <li><i class="fas fa-envelope"></i> mugishatheophile71@gmail.com</li>
+        </ul>
+      </div>
+      
+    
+
+    <!-- Second footer low -->
+    <div class="footer-low">
+      <div class="footer-logo">
+        <!-- Replace 'logo.png' with your logo image path -->
+        <img src="greenlogo.png" alt="Logo">
+      </div>
+      <div class="footer-text">
+        <p>Back in 2019, i decided to try out my hand at creating custom Tumblr theme and tumbled head first into coding and web development.Fast-forward to day, and i've had the privilege of building software for an <span>advertising agrncy</span>, a<span>start-up</span>, a<span>student-led design studio</span>,and a<span>huge corporation</span></p>
+        <p>&copy; 2023 Mugisha theophile 256 Developer. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+  <script src="app.js"></script>
+</body>
+</html>
